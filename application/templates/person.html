@@ -1,0 +1,23 @@
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" />
+    <link rel="stylesheet" href="../static/css/person.css"/>
+  </head>
+
+  <body>
+    <main>  
+       <h1>Your Results to </h1> 
+       <p>Pequeña herramienta para escudriñar y filtrar entre todas esas busquedas de Google, probablemente implemente mas API como (DuckDuckgo, Senia, ...)</p>
+       <div class="json">
+        {% for a in data %}
+        <code>
+         {{a}}
+        </code>
+        {% endfor %}
+       </div>    
+    </main>
+  </body>
+</html>
