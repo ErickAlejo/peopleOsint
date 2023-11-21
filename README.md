@@ -18,9 +18,11 @@ Get a Result in JSON
 
 <img style="border-radius:10px;" src="https://i.imgur.com/PMPR5pg.png" title="source: imgur.com" /></a>
 
-
-La idea inicial del script es poder filtrar a personas, todo esto a través de la API de google serp, de momento quiero crear perfiles de personas a partir de una busqueda por ejemplo:
+## Idea principal
+- La idea inicial del script era poder filtrar a personas, todo esto a través de la API de google serp, de momento crear perfiles de personas a partir de una busqueda por ejemplo:
 Busqueda inicial: "Erick Alejandro"
+
+` 
 {
 "Name": "Erick Alejandro",
 "Tags": "IT, crac, erudit, networking, script",
@@ -28,3 +30,4 @@ Busqueda inicial: "Erick Alejandro"
 "Phone": "+1120218103"
 ...
 }
+`
